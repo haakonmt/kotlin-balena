@@ -8,6 +8,4 @@ COPY . .
 
 RUN mvn clean install
 
-ENV INITSYSTEM=on
-
 CMD java -jar target/kotlin-balena-1.0-SNAPSHOT-jar-with-dependencies.jar
