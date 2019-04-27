@@ -1,4 +1,4 @@
-FROM balenalib/%%BALENA_MACHINE_NAME%%-openjdk:8
+FROM  balenalib/armv7hf-debian-openjdk:10-jdk-sid-ru
 
 RUN install_packages maven
 
