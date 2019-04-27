@@ -1,4 +1,4 @@
-FROM  balenalib/armv7hf-debian-openjdk:8-jdk-latest
+FROM resin/%%RESIN_MACHINE_NAME%%-openjdk:8-jdk
 
 RUN install_packages maven
 
