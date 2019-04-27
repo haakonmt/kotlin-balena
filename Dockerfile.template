@@ -1,4 +1,4 @@
-FROM  balenalib/armv7hf-debian-openjdk:10-jdk-sid-ru
+FROM  balenalib/armv7hf-debian-openjdk:11-jdk-sid
 
 RUN install_packages maven
 
