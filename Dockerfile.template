@@ -1,4 +1,4 @@
-FROM balenalib/%%BALENA_MACHINE_NAME%%-alpine-openjdk:8
+FROM balenalib/%%BALENA_MACHINE_NAME%%-openjdk:8
 
 RUN install_packages maven
 
